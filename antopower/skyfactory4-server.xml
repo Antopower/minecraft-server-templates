@@ -2,7 +2,10 @@
 <Container version="2">
   <Beta>False</Beta>
   <Name>Skyfactory4</Name>
-  <Overview>SkyFactory4 4.0.8 Server</Overview>
+  <Overview>
+    SkyFactory4 Server[br]
+    [b]Current Version[/b] : 4.0.8
+  </Overview>
   <Project>https://www.curseforge.com/minecraft/modpacks/skyfactory-4</Project>
   <Support>https://github.com/DarkPacks/SkyFactory-4/issues</Support>
   <Description>
@@ -30,6 +33,6 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Config Type="Path" Name="World Folder" Target="/minecraft/world" Default="/mnt/user/appdata/skyfactory/world" Mode="rw" Display="advanced-hide" Required="true" Description="This is where the Minecraft world data will be save">/mnt/user/appdata/skyfactory/world</Config>
-  <Config Type="Port" Name="Server Port" Target="25565" Default="25565" Mode="tcp" Display="advanced-hide" Required="true" Description="Port for the Minecraft Server">25565</Config>
+  <Config Type="Path" Name="World Folder" Target="/minecraft/world" Default="/mnt/user/appdata/skyfactory/world" Mode="rw" Display="advanced-hide" Required="true" Description="This is where the Minecraft world data will be saved">/mnt/user/appdata/skyfactory/world</Config>
+  <Config Type="Port" Name="Server Port" Target="25565" Default="25565" Mode="tcp" Display="advanced-hide" Required="true" Description="Port for the Minecraft server">25565</Config>
 </Container>
