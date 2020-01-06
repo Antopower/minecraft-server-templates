@@ -2,12 +2,11 @@
 <Container version="2">
   <Beta>False</Beta>
   <Name>Skyfactory4</Name>
-  <Overview>
-    SkyFactory4 Server[br]
-    [b]Current Version[/b] : 4.0.8
-  </Overview>
+  <Overview>SkyFactory4 Server[br][b]Current Version[/b] : 4.0.8</Overview>
+  <Registry>https://hub.docker.com/r/cochief/skyfactory4</Registry>  
   <Project>https://www.curseforge.com/minecraft/modpacks/skyfactory-4</Project>
   <Support>https://github.com/DarkPacks/SkyFactory-4/issues</Support>
+  <Icon>https://media.forgecdn.net/avatars/thumbnails/199/573/64/64/636907930795697123.png</Icon>
   <Description>
     SkyFactory4 Server[br]
     [b]Current Version[/b] : 4.0.8
@@ -28,11 +27,11 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/skyfactory/world</HostDir>
+      <HostDir>/mnt/user/appdata/skyfactory4/world</HostDir>
       <ContainerDir>/minecraft/world</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Config Type="Path" Name="World Folder" Target="/minecraft/world" Default="/mnt/user/appdata/skyfactory/world" Mode="rw" Display="advanced-hide" Required="true" Description="This is where the Minecraft world data will be saved">/mnt/user/appdata/skyfactory/world</Config>
+  <Config Type="Path" Name="World Folder" Target="/minecraft/world" Default="/mnt/user/appdata/skyfactory4/world" Mode="rw" Display="advanced-hide" Required="true" Description="This is where the Minecraft world data will be saved">/mnt/user/appdata/skyfactory4/world</Config>
   <Config Type="Port" Name="Server Port" Target="25565" Default="25565" Mode="tcp" Display="advanced-hide" Required="true" Description="Port for the Minecraft server">25565</Config>
 </Container>
