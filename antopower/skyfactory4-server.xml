@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="2">
+  <Beta>False</Beta>
+  <Name>Skyfactory4</Name>
+  <Overview>SkyFactory4 4.0.8 Server</Overview>
+  <Project>https://www.curseforge.com/minecraft/modpacks/skyfactory-4</Project>
+  <Support>https://github.com/DarkPacks/SkyFactory-4/issues</Support>
+  <Description>
+    SkyFactory4 4.0.8 Server
+  </Description>
+  <Repository>cochief/skyfactory4</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>25565</HostPort>
+        <ContainerPort>25565</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/skyfactory/world/</HostDir>
+      <ContainerDir>/minecraft/world/</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+</Container>
