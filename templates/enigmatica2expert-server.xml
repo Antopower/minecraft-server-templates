@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container version="2">
   <Beta>False</Beta>
-  <Name>Enigmatica 2: Expert</Name>
+  <Name>Enigmatica 2 Expert</Name>
   <Overview>Enigmatica 2: Expert Server[br][b]Current Version[/b] : 1.75</Overview>
   <Registry>https://hub.docker.com/r/antomatic10/enigmatic2expert</Registry>  
   <Project>https://www.curseforge.com/minecraft/modpacks/enigmatica2expert</Project>
